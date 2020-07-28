@@ -1,5 +1,6 @@
 import numpy as np
 import pdb
+
 def stab_BB(
     x0,
     costFn,
