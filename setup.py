@@ -7,7 +7,7 @@ setup(
     url = "https://github.com/mesquita-daniel/StabBB",
     author = 'Daniel Mesquita',
     name="stabbb",
-    version="0.0.1",
+    version="0.0.0.1",
     description="Implementation of stabilized Barzilai-Borwein Method for gradient descent problems",
     long_description = long_description,
     long_description_content_type = 'text/markdown',
@@ -24,7 +24,8 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Cython",
-        "Topic :: Scientific/Engineering :: Data Science :: Optimization :: Mathematics",
+        "Topic :: Scientific/Engineering :: Mathematics",
     ],
 )
+
 

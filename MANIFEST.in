@@ -1,2 +1,5 @@
 include Dockerfile
 recursive-include stabbb *.py
+include *.lock
+include LICENSE
+include Pipfile
