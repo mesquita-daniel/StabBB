@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("README.md", 'r') as fh:
     long_description = fh.read()
@@ -12,8 +12,7 @@ setup(
     long_description = long_description,
     long_description_content_type = 'text/markdown',
     keywords = ['Optimization', 'Gardient Descent', 'Line Search'],
-    py_modules=["stabbb"],
-    package_dir={"": "stabbb"},
+    packages=find_packages(),
     classifiers=[
         "Environment :: Console",
         "Operating System :: OS Independent",

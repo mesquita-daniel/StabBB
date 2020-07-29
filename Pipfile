@@ -9,6 +9,8 @@ twine = "*"
 
 [packages]
 stabbb = {editable = true, path = "."}
+numpy = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.8"
