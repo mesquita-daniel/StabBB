@@ -1,0 +1,2 @@
+include Dockerfile
+recursive-include stabbb *.py
